@@ -42,5 +42,6 @@ while True:
 
     # se o usuario perder
     if pontuacao == 0:
+        print(f'Animal escolhido foi {escolha_computador}')
         print('Fim de jogo! Tente novamente')
         break
